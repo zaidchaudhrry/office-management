@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True  # For development purposes
 # office_management/settings.py
-APPEND_SLASH = True  # This adds a trailing slash if not provided
+APPEND_SLASH = False  # This adds a trailing slash if not provided
 
 ROOT_URLCONF = 'office_management.urls'
 
