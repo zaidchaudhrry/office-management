@@ -46,7 +46,7 @@ const Inventory = () => {
 
   return (
     <div className="flex flex-col">
-      <Header name="Inventory" />
+      <Header name="Inventory | جرد" />
       <DataGrid
         rows={products}
         columns={columns}
